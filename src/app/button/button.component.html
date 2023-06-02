@@ -1,0 +1,11 @@
+<div>
+    <!-- <button [ngStyle]="{ backgroundColor: backgroundColor }">Mon bouton</button> -->
+    <button
+      [style.background-color]="buttonConfiguration?.backgroundColor"
+      [style.color]="buttonConfiguration?.color"
+      [style.border-color]="buttonConfiguration?.borderColor"
+      [style.border-width]="buttonConfiguration?.borderSize"
+    >
+      Mon bouton
+    </button>
+  </div>
